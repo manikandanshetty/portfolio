@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh Shetty - Web Developer</title>
+    <link rel="Stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="Container">
+        <!-- <div class="sidebar">
+            <nav>
+                <ul class="links">
+                    <li class="link"> Home </li>
+                    <li class="link"> My Intro.</li>
+                    <li class="link">Services</li>
+                    <li class="link">CV</li>
+                    <li class="link">Blog</li>
+                </ul>
+            </nav>
+        </div> -->
+        <div class="mains">
+            <ul class="links">
+                <li class="link"> Home </li>
+                <li class="link"> My Intro.</li>
+                <li class="link">Services</li>
+                <li class="link">CV</li>
+                <li class="link">Blog</li>
+            </ul>
+           <div class="infoContainer">
+           
+               <div class="devinfo">
+                   <p class="hello">Hello From</p>
+                   <p class="name">Rajesh Shetty</p>
+                   <p class="about">Web Developer, Gymer, swimmer</p>
+                   <div class="buttons">
+                      <button id="downloadcv" class="button-29" role="button">Download CV</button>                     
+                      <button class="button-29" role="button">Contact Me</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  
+</body>
+
+<script>
+    $(document).ready(function(){
+        
+        $("#downloadcv").click(function(){
+            window.open(`https://www.tutorialspoint.com/javascript/javascript_tutorial.pdf`, "_blank");
+
+        });
+    
+    });
+   
+</script>
+</html>

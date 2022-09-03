@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    display: flex;
+    /* background-color: rgb(230, 216, 211);   */
+    padding-left:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+.sidebar nav {
+
+    width: 100vw;
+    
+}
+
+.devinfo{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   width:100%;
+   gap: 25px;
+  
+}
+.buttons{
+    align-items: center;
+    width:fit-content;
+}
+.mains{
+    background-image:url("https://images.unsplash.com/photo-1567095751004-aa51a2690368?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBkYXJrfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+.infoContainer{
+   
+    /* border-radius: 20px; */
+    height: 100vh;
+    width:100vw;
+    /* margin: 144px auto; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    
+    
+}
+.devimage{
+    display: flex;
+    padding-left: 10vw;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    color: white;
+
+
+}
+.link{
+    padding: 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+p{
+    width: fit-content;
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;
+}
+.hello{
+    font-size: 50px;
+}
+.about{
+    font-size:20px;
+}
+
+
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+   
